@@ -8,7 +8,9 @@ h2 {
   text-decoration-line: underline;
 }
 
-
+body {
+  background-color: lightblue;
+}
 
 /*--------------- Encabezado ---------------*/
 
@@ -91,7 +93,7 @@ h2 {
   }
 
   .header.show {
-   max-height: 100%;
+    max-height: 100%;
   }
 
   #Profile_Photo {
@@ -109,15 +111,10 @@ h2 {
     flex-direction: column;
   }
 
-
-
-
-  /*Boton de Menu (Media queries)*/
-
   .button-menu {
     position: absolute;
     right: 15px;
-    top:15px;
+    top: 15px;
     width: 40px;
     height: 40px;
     display: flex;
@@ -152,8 +149,6 @@ h2 {
     display: none;
   }
 
-  /*Boton de Menu (Media queries)*/
-
 }
 
 /* Fin Media Queries */
@@ -169,7 +164,8 @@ h2 {
   margin-top: 100px;
   padding: 16px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-style: normal
+  font-style: normal;
+
 }
 
 
@@ -190,7 +186,7 @@ i {
 
 
 .h2_Scroll {
-  scroll-margin-top: 130px;
+  scroll-margin-top: 120px;
 }
 
 
