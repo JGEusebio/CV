@@ -1,0 +1,203 @@
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+
+h2 {
+  text-decoration-line: underline;
+}
+
+
+
+/*--------------- Encabezado ---------------*/
+
+#Profile_Photo {
+  width: 90px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 20%;
+  border-radius: 50%;
+  float: left;
+}
+
+
+.header {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 15px;
+  background: #282A35;
+  color: #f1f1f1;
+}
+
+
+#Boton_Bio {
+  margin-left: 20px;
+}
+
+
+.header a {
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 20px;
+  color: #f1f1f1;
+  padding: 10px 30px 10px 30px;
+}
+
+
+.header a:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+
+.header a:active {
+  background-color: black;
+  color: white;
+}
+
+.button-menu {
+  display: none;
+}
+
+/* Media queries para sitio Responsivo - Cuando la pantalla es 1000px de ancho o menos, cambia el encabezado */
+
+@media screen and (max-width: 1000px) {
+
+  h1 {
+    font-size: 4vw;
+
+  }
+
+  a.CV-header-button {
+    font-size: 3vw;
+  }
+
+  #Boton_Bio {
+    margin-left: 0px;
+  }
+
+  .header {
+    max-height: 25%;
+  }
+
+  .header.show {
+   max-height: 100%;
+  }
+
+  #Profile_Photo {
+    max-width: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .main-nav.show {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
+  /*Boton de Menu (Media queries)*/
+
+  .button-menu {
+    position: absolute;
+    right: 15px;
+    top:15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+
+  .button-menu span {
+    width: 37px;
+    height: 4px;
+    margin-bottom: 3px;
+    position: relative;
+    background: white;
+    border-radius: 3px;
+    transform-origin: 4px 0px;
+    transition: all .2s linear;
+  }
+
+  .button-menu.close span {
+    opacity: 1;
+    transform: rotate(45deg) translate(0px, 0px);
+    background: #ffffff;
+  }
+
+  .button-menu.close span:nth-child(2) {
+    transform: rotate(-45deg) translate(-8px, 5px);
+  }
+
+  .button-menu.close span:nth-child(3) {
+    display: none;
+  }
+
+  /*Boton de Menu (Media queries)*/
+
+}
+
+/* Fin Media Queries */
+
+
+
+
+
+
+/*--------------- Contenido de la Pagina ---------------*/
+
+.content {
+  margin-top: 100px;
+  padding: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal
+}
+
+
+.content h2 {
+  font-style: italic;
+}
+
+
+i {
+  width: 20px;
+  margin-bottom: 20px;
+}
+
+
+.Icon-Span {
+  margin: 5px;
+}
+
+
+.h2_Scroll {
+  scroll-margin-top: 130px;
+}
+
+
+
+footer {
+  margin-top: 150px;
+  text-align: center;
+  font-size: small;
+  color: gray;
+}
