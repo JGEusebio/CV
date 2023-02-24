@@ -10,4 +10,4 @@ La mayoria de los textos fueron generados con https://www.lipsum.com/
 
 La WEB consta de un diseño responsivo. Para pantallas menores a 1000px los link ancla de la barra de navegación se transforman en un menu desplegable
 
-Se puede visitar una Preview en jgeusebio.github.io/CV/
+Se puede visitar una Preview en https://jgeusebio.github.io/CV/
